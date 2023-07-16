@@ -4,6 +4,10 @@
 #include <stdio.h>
 #include <string.h>
 
+static Window w;
+static XEvent e;
+static Display* d;
+
 char* get_windowing_system() {
 	char* session_type = getenv("XDG_SESSION_TYPE");
 	if(strcmp(session_type, "") == 0)
@@ -13,10 +17,6 @@ char* get_windowing_system() {
 }
 
 Window* create_x11_window(unsigned int width, unsigned int height) {
-	Display* d;
-	static Window w;
-	XEvent e;
-
 	d = XOpenDisplay(NULL);
 	if(d == NULL)
 		puts("Can't Open X11 Display...");
@@ -27,7 +27,11 @@ Window* create_x11_window(unsigned int width, unsigned int height) {
 	XSelectInput(d, w, ExposureMask | KeyPressMask);
 	
 	XMapRaised(d, w);
-	while(1){ //Temp to see if the Window launches
-	}
 	return &w;
+}
+
+void do_window_loop() {
+	XNextEvent(d, &e);
+	if(e.type == Expose) {
+	}
 }
