@@ -1,0 +1,3 @@
+/home/poirier/Workspace/keopi/build/CMakeFiles/keopi.dir
+/home/poirier/Workspace/keopi/build/CMakeFiles/edit_cache.dir
+/home/poirier/Workspace/keopi/build/CMakeFiles/rebuild_cache.dir

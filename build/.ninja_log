@@ -1,0 +1,17 @@
+# ninja log v5
+1	11	1689532488493380877	CMakeFiles/keopi.dir/main.c.o	940011b79ad09169
+1	19	1689532488500047546	CMakeFiles/keopi.dir/src/window_linux.c.o	804dc7378c56a1fa
+19	32	1689532488513380879	keopi	f5dadef4ccdbe2db
+1	16	1689532645283378882	CMakeFiles/keopi.dir/main.c.o	940011b79ad09169
+16	30	1689532645296712215	keopi	f5dadef4ccdbe2db
+0	15	1689532762703377352	CMakeFiles/keopi.dir/main.c.o	940011b79ad09169
+15	28	1689532762716710685	keopi	f5dadef4ccdbe2db
+1	19	1689533226550038020	CMakeFiles/keopi.dir/src/window_linux.c.o	804dc7378c56a1fa
+19	32	1689533226563371353	keopi	f5dadef4ccdbe2db
+1	16	1689533350203369809	CMakeFiles/keopi.dir/main.c.o	940011b79ad09169
+1	19	1689533350206703142	CMakeFiles/keopi.dir/src/window_linux.c.o	804dc7378c56a1fa
+19	32	1689533350220036476	keopi	f5dadef4ccdbe2db
+0	18	1689533422653368917	CMakeFiles/keopi.dir/src/window_linux.c.o	804dc7378c56a1fa
+18	31	1689533422663368917	keopi	f5dadef4ccdbe2db
+0	19	1689534132620025281	CMakeFiles/keopi.dir/src/window_linux.c.o	804dc7378c56a1fa
+19	33	1689534132633358612	keopi	f5dadef4ccdbe2db
